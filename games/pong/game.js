@@ -1,3 +1,6 @@
+/* TO-DO: Add scoring system, reset ball.
+          Add game-over after 10 points. */
+
 var ctx, width, height, keystate;
 
 //key codes
@@ -78,6 +81,7 @@ var player1 = {
 }
 
 //an object literal for the comp player
+//TO-DO: Fix AI movements so they are not jittery. Play with speeds of movement.
 var computerPlayer = {
     xLocation: 40,
     yLocation: 200,
