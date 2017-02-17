@@ -1,5 +1,9 @@
-//speed up as game goes on?
-
+/*TO-DO: Speed up as game goes on?
+         Add reset button to play again
+         Add a some game logic to prevent impossible scenarios where blockades are 
+         just the right distance apart and prevent any possiblity to win.
+         Build objects from a prototype... Building new ones with own properties as game advances.
+*/
 var ctx, width, height, keystate;
 
 //key codes
